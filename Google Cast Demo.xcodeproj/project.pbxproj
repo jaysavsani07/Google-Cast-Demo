@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE9D16543E63FC9F25B2ED4A /* Pods_Google_Cast_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F193B86DF36FAD25339BFD8 /* Pods_Google_Cast_DemoTests.framework */; };
+		C2124B0924090D760018F4B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B0824090D760018F4B9 /* AppDelegate.swift */; };
+		C2124B0B24090D760018F4B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B0A24090D760018F4B9 /* SceneDelegate.swift */; };
+		C2124B0D24090D760018F4B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B0C24090D760018F4B9 /* ViewController.swift */; };
+		C2124B1024090D760018F4B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2124B0E24090D760018F4B9 /* Main.storyboard */; };
+		C2124B1224090D7D0018F4B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2124B1124090D7D0018F4B9 /* Assets.xcassets */; };
+		C2124B1524090D7D0018F4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2124B1324090D7D0018F4B9 /* LaunchScreen.storyboard */; };
+		C2124B2024090D7D0018F4B9 /* Google_Cast_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B1F24090D7D0018F4B9 /* Google_Cast_DemoTests.swift */; };
+		C2124B2B24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B2A24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift */; };
+		DAA932A06919DDB03BA257B0 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B9AB82AFF789BCAA9B0025 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework */; };
+		F1676858116CA2FFF0CE2F7D /* Pods_Google_Cast_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092FC12CD56CD50F2ADC52C /* Pods_Google_Cast_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2124B1C24090D7D0018F4B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2124AFD24090D760018F4B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2124B0424090D760018F4B9;
+			remoteInfo = "Google Cast Demo";
+		};
+		C2124B2724090D7D0018F4B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2124AFD24090D760018F4B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2124B0424090D760018F4B9;
+			remoteInfo = "Google Cast Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0031A523C884EA4BF95CEE /* Pods-Google Cast Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast Demo.release.xcconfig"; path = "Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo.release.xcconfig"; sourceTree = "<group>"; };
+		46B9AB82AFF789BCAA9B0025 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E362284B26EA024914F2D6F /* Pods-Google Cast DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast DemoTests.debug.xcconfig"; path = "Target Support Files/Pods-Google Cast DemoTests/Pods-Google Cast DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F193B86DF36FAD25339BFD8 /* Pods_Google_Cast_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Cast_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2124B0524090D760018F4B9 /* Google Cast Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Cast Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2124B0824090D760018F4B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2124B0A24090D760018F4B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C2124B0C24090D760018F4B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2124B0F24090D760018F4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2124B1124090D7D0018F4B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2124B1424090D7D0018F4B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2124B1624090D7D0018F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2124B1B24090D7D0018F4B9 /* Google Cast DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Cast DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2124B1F24090D7D0018F4B9 /* Google_Cast_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Cast_DemoTests.swift; sourceTree = "<group>"; };
+		C2124B2124090D7D0018F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2124B2624090D7D0018F4B9 /* Google Cast DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Cast DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2124B2A24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Cast_DemoUITests.swift; sourceTree = "<group>"; };
+		C2124B2C24090D7D0018F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8CADB12B288A941F81DC28 /* Pods-Google Cast Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast Demo.debug.xcconfig"; path = "Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		D191668C17706151C41497EC /* Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB6DF903010434CEBD3DF0C9 /* Pods-Google Cast DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast DemoTests.release.xcconfig"; path = "Target Support Files/Pods-Google Cast DemoTests/Pods-Google Cast DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F092FC12CD56CD50F2ADC52C /* Pods_Google_Cast_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Google_Cast_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F7F7E866A216CECBA65535 /* Pods-Google Cast Demo-Google Cast DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast Demo-Google Cast DemoUITests.release.xcconfig"; path = "Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2124B0224090D760018F4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1676858116CA2FFF0CE2F7D /* Pods_Google_Cast_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2124B1824090D7D0018F4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9D16543E63FC9F25B2ED4A /* Pods_Google_Cast_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2124B2324090D7D0018F4B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA932A06919DDB03BA257B0 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73005E5D5E56F7BFAE2AC9E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE8CADB12B288A941F81DC28 /* Pods-Google Cast Demo.debug.xcconfig */,
+				0B0031A523C884EA4BF95CEE /* Pods-Google Cast Demo.release.xcconfig */,
+				D191668C17706151C41497EC /* Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig */,
+				F0F7F7E866A216CECBA65535 /* Pods-Google Cast Demo-Google Cast DemoUITests.release.xcconfig */,
+				7E362284B26EA024914F2D6F /* Pods-Google Cast DemoTests.debug.xcconfig */,
+				EB6DF903010434CEBD3DF0C9 /* Pods-Google Cast DemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2124AFC24090D760018F4B9 = {
+			isa = PBXGroup;
+			children = (
+				C2124B0724090D760018F4B9 /* Google Cast Demo */,
+				C2124B1E24090D7D0018F4B9 /* Google Cast DemoTests */,
+				C2124B2924090D7D0018F4B9 /* Google Cast DemoUITests */,
+				C2124B0624090D760018F4B9 /* Products */,
+				73005E5D5E56F7BFAE2AC9E1 /* Pods */,
+				E0B2CE244FB8A3DBA901B1B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2124B0624090D760018F4B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2124B0524090D760018F4B9 /* Google Cast Demo.app */,
+				C2124B1B24090D7D0018F4B9 /* Google Cast DemoTests.xctest */,
+				C2124B2624090D7D0018F4B9 /* Google Cast DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2124B0724090D760018F4B9 /* Google Cast Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C2124B0824090D760018F4B9 /* AppDelegate.swift */,
+				C2124B0A24090D760018F4B9 /* SceneDelegate.swift */,
+				C2124B0C24090D760018F4B9 /* ViewController.swift */,
+				C2124B0E24090D760018F4B9 /* Main.storyboard */,
+				C2124B1124090D7D0018F4B9 /* Assets.xcassets */,
+				C2124B1324090D7D0018F4B9 /* LaunchScreen.storyboard */,
+				C2124B1624090D7D0018F4B9 /* Info.plist */,
+			);
+			path = "Google Cast Demo";
+			sourceTree = "<group>";
+		};
+		C2124B1E24090D7D0018F4B9 /* Google Cast DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2124B1F24090D7D0018F4B9 /* Google_Cast_DemoTests.swift */,
+				C2124B2124090D7D0018F4B9 /* Info.plist */,
+			);
+			path = "Google Cast DemoTests";
+			sourceTree = "<group>";
+		};
+		C2124B2924090D7D0018F4B9 /* Google Cast DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2124B2A24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift */,
+				C2124B2C24090D7D0018F4B9 /* Info.plist */,
+			);
+			path = "Google Cast DemoUITests";
+			sourceTree = "<group>";
+		};
+		E0B2CE244FB8A3DBA901B1B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F092FC12CD56CD50F2ADC52C /* Pods_Google_Cast_Demo.framework */,
+				46B9AB82AFF789BCAA9B0025 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework */,
+				9F193B86DF36FAD25339BFD8 /* Pods_Google_Cast_DemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2124B0424090D760018F4B9 /* Google Cast Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2124B2F24090D7D0018F4B9 /* Build configuration list for PBXNativeTarget "Google Cast Demo" */;
+			buildPhases = (
+				C5EE44EAFA103D6B62B893D1 /* [CP] Check Pods Manifest.lock */,
+				C2124B0124090D760018F4B9 /* Sources */,
+				C2124B0224090D760018F4B9 /* Frameworks */,
+				C2124B0324090D760018F4B9 /* Resources */,
+				2584A4BB56942BB1DD358E44 /* [CP] Embed Pods Frameworks */,
+				B4B285B62F6159E721C816FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google Cast Demo";
+			productName = "Google Cast Demo";
+			productReference = C2124B0524090D760018F4B9 /* Google Cast Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2124B1A24090D7D0018F4B9 /* Google Cast DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2124B3224090D7D0018F4B9 /* Build configuration list for PBXNativeTarget "Google Cast DemoTests" */;
+			buildPhases = (
+				71EE976110CEB5D9E27E174E /* [CP] Check Pods Manifest.lock */,
+				C2124B1724090D7D0018F4B9 /* Sources */,
+				C2124B1824090D7D0018F4B9 /* Frameworks */,
+				C2124B1924090D7D0018F4B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2124B1D24090D7D0018F4B9 /* PBXTargetDependency */,
+			);
+			name = "Google Cast DemoTests";
+			productName = "Google Cast DemoTests";
+			productReference = C2124B1B24090D7D0018F4B9 /* Google Cast DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2124B2524090D7D0018F4B9 /* Google Cast DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2124B3524090D7D0018F4B9 /* Build configuration list for PBXNativeTarget "Google Cast DemoUITests" */;
+			buildPhases = (
+				973A98826AC49C541D483AB5 /* [CP] Check Pods Manifest.lock */,
+				C2124B2224090D7D0018F4B9 /* Sources */,
+				C2124B2324090D7D0018F4B9 /* Frameworks */,
+				C2124B2424090D7D0018F4B9 /* Resources */,
+				E5DC39C19447B731A737E176 /* [CP] Embed Pods Frameworks */,
+				3FA981254C829093262BDDB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2124B2824090D7D0018F4B9 /* PBXTargetDependency */,
+			);
+			name = "Google Cast DemoUITests";
+			productName = "Google Cast DemoUITests";
+			productReference = C2124B2624090D7D0018F4B9 /* Google Cast DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2124AFD24090D760018F4B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Jay;
+				TargetAttributes = {
+					C2124B0424090D760018F4B9 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					C2124B1A24090D7D0018F4B9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C2124B0424090D760018F4B9;
+					};
+					C2124B2524090D7D0018F4B9 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = C2124B0424090D760018F4B9;
+					};
+				};
+			};
+			buildConfigurationList = C2124B0024090D760018F4B9 /* Build configuration list for PBXProject "Google Cast Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2124AFC24090D760018F4B9;
+			productRefGroup = C2124B0624090D760018F4B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2124B0424090D760018F4B9 /* Google Cast Demo */,
+				C2124B1A24090D7D0018F4B9 /* Google Cast DemoTests */,
+				C2124B2524090D7D0018F4B9 /* Google Cast DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2124B0324090D760018F4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2124B1524090D7D0018F4B9 /* LaunchScreen.storyboard in Resources */,
+				C2124B1224090D7D0018F4B9 /* Assets.xcassets in Resources */,
+				C2124B1024090D760018F4B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2124B1924090D7D0018F4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2124B2424090D7D0018F4B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2584A4BB56942BB1DD358E44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FA981254C829093262BDDB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71EE976110CEB5D9E27E174E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Google Cast DemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		973A98826AC49C541D483AB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Google Cast Demo-Google Cast DemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4B285B62F6159E721C816FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EE44EAFA103D6B62B893D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Google Cast Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5DC39C19447B731A737E176 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2124B0124090D760018F4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2124B0D24090D760018F4B9 /* ViewController.swift in Sources */,
+				C2124B0924090D760018F4B9 /* AppDelegate.swift in Sources */,
+				C2124B0B24090D760018F4B9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2124B1724090D7D0018F4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2124B2024090D7D0018F4B9 /* Google_Cast_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2124B2224090D7D0018F4B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2124B2B24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2124B1D24090D7D0018F4B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2124B0424090D760018F4B9 /* Google Cast Demo */;
+			targetProxy = C2124B1C24090D7D0018F4B9 /* PBXContainerItemProxy */;
+		};
+		C2124B2824090D7D0018F4B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2124B0424090D760018F4B9 /* Google Cast Demo */;
+			targetProxy = C2124B2724090D7D0018F4B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2124B0E24090D760018F4B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2124B0F24090D760018F4B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2124B1324090D7D0018F4B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2124B1424090D7D0018F4B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2124B2D24090D7D0018F4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2124B2E24090D7D0018F4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2124B3024090D7D0018F4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8CADB12B288A941F81DC28 /* Pods-Google Cast Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Google Cast Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nividata.Google-Cast-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2124B3124090D7D0018F4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0031A523C884EA4BF95CEE /* Pods-Google Cast Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Google Cast Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nividata.Google-Cast-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2124B3324090D7D0018F4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E362284B26EA024914F2D6F /* Pods-Google Cast DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Google Cast DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nividata.Google-Cast-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Cast Demo.app/Google Cast Demo";
+			};
+			name = Debug;
+		};
+		C2124B3424090D7D0018F4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB6DF903010434CEBD3DF0C9 /* Pods-Google Cast DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Google Cast DemoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nividata.Google-Cast-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Google Cast Demo.app/Google Cast Demo";
+			};
+			name = Release;
+		};
+		C2124B3624090D7D0018F4B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D191668C17706151C41497EC /* Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Google Cast DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nividata.Google-Cast-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Google Cast Demo";
+			};
+			name = Debug;
+		};
+		C2124B3724090D7D0018F4B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0F7F7E866A216CECBA65535 /* Pods-Google Cast Demo-Google Cast DemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Google Cast DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nividata.Google-Cast-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Google Cast Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2124B0024090D760018F4B9 /* Build configuration list for PBXProject "Google Cast Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2124B2D24090D7D0018F4B9 /* Debug */,
+				C2124B2E24090D7D0018F4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2124B2F24090D7D0018F4B9 /* Build configuration list for PBXNativeTarget "Google Cast Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2124B3024090D7D0018F4B9 /* Debug */,
+				C2124B3124090D7D0018F4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2124B3224090D7D0018F4B9 /* Build configuration list for PBXNativeTarget "Google Cast DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2124B3324090D7D0018F4B9 /* Debug */,
+				C2124B3424090D7D0018F4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2124B3524090D7D0018F4B9 /* Build configuration list for PBXNativeTarget "Google Cast DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2124B3624090D7D0018F4B9 /* Debug */,
+				C2124B3724090D7D0018F4B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2124AFD24090D760018F4B9 /* Project object */;
+}
