@@ -7,6 +7,7 @@ target 'Google Cast Demo' do
 
   # Pods for Google Cast Demo
   pod 'google-cast-sdk-no-bluetooth'
+  pod 'SwiftyJSON', '~> 4.0'
   
 
   target 'Google Cast DemoTests' do

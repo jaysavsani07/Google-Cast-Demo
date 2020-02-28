@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,12 @@
 		C2124B1524090D7D0018F4B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2124B1324090D7D0018F4B9 /* LaunchScreen.storyboard */; };
 		C2124B2024090D7D0018F4B9 /* Google_Cast_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B1F24090D7D0018F4B9 /* Google_Cast_DemoTests.swift */; };
 		C2124B2B24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B2A24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift */; };
+		C2124B3A240915BB0018F4B9 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2124B39240915BB0018F4B9 /* ExternalAccessory.framework */; };
+		C2124B3D2409366C0018F4B9 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = C2124B3C2409366C0018F4B9 /* sample.json */; };
+		C2124B3F240936B50018F4B9 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B3E240936B50018F4B9 /* MovieModel.swift */; };
+		C2124B42240938460018F4B9 /* MovieTableCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B40240938460018F4B9 /* MovieTableCellTableViewCell.swift */; };
+		C2124B43240938460018F4B9 /* MovieTableCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2124B41240938460018F4B9 /* MovieTableCellTableViewCell.xib */; };
+		C2124B4524094A640018F4B9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2124B4424094A640018F4B9 /* DetailViewController.swift */; };
 		DAA932A06919DDB03BA257B0 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B9AB82AFF789BCAA9B0025 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework */; };
 		F1676858116CA2FFF0CE2F7D /* Pods_Google_Cast_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F092FC12CD56CD50F2ADC52C /* Pods_Google_Cast_Demo.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +62,13 @@
 		C2124B2624090D7D0018F4B9 /* Google Cast DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google Cast DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2124B2A24090D7D0018F4B9 /* Google_Cast_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Google_Cast_DemoUITests.swift; sourceTree = "<group>"; };
 		C2124B2C24090D7D0018F4B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2124B38240915BB0018F4B9 /* Google Cast Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Google Cast Demo.entitlements"; sourceTree = "<group>"; };
+		C2124B39240915BB0018F4B9 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		C2124B3C2409366C0018F4B9 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		C2124B3E240936B50018F4B9 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		C2124B40240938460018F4B9 /* MovieTableCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableCellTableViewCell.swift; sourceTree = "<group>"; };
+		C2124B41240938460018F4B9 /* MovieTableCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableCellTableViewCell.xib; sourceTree = "<group>"; };
+		C2124B4424094A640018F4B9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CE8CADB12B288A941F81DC28 /* Pods-Google Cast Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast Demo.debug.xcconfig"; path = "Target Support Files/Pods-Google Cast Demo/Pods-Google Cast Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D191668C17706151C41497EC /* Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Google Cast Demo-Google Cast DemoUITests/Pods-Google Cast Demo-Google Cast DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB6DF903010434CEBD3DF0C9 /* Pods-Google Cast DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Cast DemoTests.release.xcconfig"; path = "Target Support Files/Pods-Google Cast DemoTests/Pods-Google Cast DemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2124B3A240915BB0018F4B9 /* ExternalAccessory.framework in Frameworks */,
 				F1676858116CA2FFF0CE2F7D /* Pods_Google_Cast_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,7 +115,6 @@
 				7E362284B26EA024914F2D6F /* Pods-Google Cast DemoTests.debug.xcconfig */,
 				EB6DF903010434CEBD3DF0C9 /* Pods-Google Cast DemoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -130,13 +143,19 @@
 		C2124B0724090D760018F4B9 /* Google Cast Demo */ = {
 			isa = PBXGroup;
 			children = (
+				C2124B38240915BB0018F4B9 /* Google Cast Demo.entitlements */,
 				C2124B0824090D760018F4B9 /* AppDelegate.swift */,
 				C2124B0A24090D760018F4B9 /* SceneDelegate.swift */,
 				C2124B0C24090D760018F4B9 /* ViewController.swift */,
 				C2124B0E24090D760018F4B9 /* Main.storyboard */,
 				C2124B1124090D7D0018F4B9 /* Assets.xcassets */,
 				C2124B1324090D7D0018F4B9 /* LaunchScreen.storyboard */,
+				C2124B3C2409366C0018F4B9 /* sample.json */,
 				C2124B1624090D7D0018F4B9 /* Info.plist */,
+				C2124B3E240936B50018F4B9 /* MovieModel.swift */,
+				C2124B40240938460018F4B9 /* MovieTableCellTableViewCell.swift */,
+				C2124B41240938460018F4B9 /* MovieTableCellTableViewCell.xib */,
+				C2124B4424094A640018F4B9 /* DetailViewController.swift */,
 			);
 			path = "Google Cast Demo";
 			sourceTree = "<group>";
@@ -162,6 +181,7 @@
 		E0B2CE244FB8A3DBA901B1B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C2124B39240915BB0018F4B9 /* ExternalAccessory.framework */,
 				F092FC12CD56CD50F2ADC52C /* Pods_Google_Cast_Demo.framework */,
 				46B9AB82AFF789BCAA9B0025 /* Pods_Google_Cast_Demo_Google_Cast_DemoUITests.framework */,
 				9F193B86DF36FAD25339BFD8 /* Pods_Google_Cast_DemoTests.framework */,
@@ -281,6 +301,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2124B1524090D7D0018F4B9 /* LaunchScreen.storyboard in Resources */,
+				C2124B43240938460018F4B9 /* MovieTableCellTableViewCell.xib in Resources */,
+				C2124B3D2409366C0018F4B9 /* sample.json in Resources */,
 				C2124B1224090D7D0018F4B9 /* Assets.xcassets in Resources */,
 				C2124B1024090D760018F4B9 /* Main.storyboard in Resources */,
 			);
@@ -444,9 +466,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2124B3F240936B50018F4B9 /* MovieModel.swift in Sources */,
 				C2124B0D24090D760018F4B9 /* ViewController.swift in Sources */,
 				C2124B0924090D760018F4B9 /* AppDelegate.swift in Sources */,
+				C2124B4524094A640018F4B9 /* DetailViewController.swift in Sources */,
 				C2124B0B24090D760018F4B9 /* SceneDelegate.swift in Sources */,
+				C2124B42240938460018F4B9 /* MovieTableCellTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,7 +645,9 @@
 			baseConfigurationReference = CE8CADB12B288A941F81DC28 /* Pods-Google Cast Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Google Cast Demo/Google Cast Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRPN8BPXG3;
 				INFOPLIST_FILE = "Google Cast Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -638,7 +665,9 @@
 			baseConfigurationReference = 0B0031A523C884EA4BF95CEE /* Pods-Google Cast Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Google Cast Demo/Google Cast Demo.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRPN8BPXG3;
 				INFOPLIST_FILE = "Google Cast Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -658,6 +687,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRPN8BPXG3;
 				INFOPLIST_FILE = "Google Cast DemoTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -680,6 +710,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRPN8BPXG3;
 				INFOPLIST_FILE = "Google Cast DemoTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -701,6 +732,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRPN8BPXG3;
 				INFOPLIST_FILE = "Google Cast DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -721,6 +753,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PRPN8BPXG3;
 				INFOPLIST_FILE = "Google Cast DemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

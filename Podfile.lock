@@ -5,19 +5,23 @@ PODS:
   - google-cast-sdk-no-bluetooth/Core (4.4.6):
     - Protobuf (~> 3.0)
   - Protobuf (3.11.4)
+  - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - google-cast-sdk-no-bluetooth
+  - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   trunk:
     - google-cast-sdk-no-bluetooth
     - Protobuf
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   google-cast-sdk-no-bluetooth: 0b2f106f07592fe08bb78851bfd20a89e1cb613b
   Protobuf: 176220c526ad8bd09ab1fb40a978eac3fef665f7
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 85733c04c0d4e15e390b5862933a23cc6c62d22e
+PODFILE CHECKSUM: b267181c26c1d700aee3f5d2a79ee420026ca50f
 
 COCOAPODS: 1.8.4
